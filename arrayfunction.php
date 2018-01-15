@@ -9,29 +9,42 @@
  </head>
  <body>
       <?php
-
-        $animals = array("panda","alpaca","boa");
-
-        function sortanimal(){
+      $animals = array("panda","alpaca","boa");
+      function sortanimal(){
             global $animals;
             for($x=0;$x<=count($animals);$x++){
                 sort($animals);
                 echo $animals[$x];
                 echo "    ";
+               }
             }
-        }
-            //echo "$cup_value";
-            //echo "<br>";
-          // }
+
+      function addanimals($newanimal){
+          global $animals;
+          $newlower =strtolower($newanimal);
+          for($x=0;$x<=count($animals);$x++){
+              if(in_array($newlower,$animals))
+              {
+                  sort($animals);
+                  echo $animals[$x];
+                  echo "    ";
+              }else{
+                  array_push($animals,$newlower);
+                  sort($animals);
+                  echo $animals[$x];
+                  echo "    ";
+               }
+              }
+            }
 
              echo"<br>";
              sortanimal();  //alpaca boa panda
              echo"<br>";
-            // addanimals(goat); //alpaca boa goat panda
+             addanimals(goat); //alpaca boa goat panda
              echo"<br>";
-             //addanimals(Boa); //alpaca boa goat panda
-              echo"<br>";
-              echo"<br>";
+            addanimals(Boa); //alpaca boa goat panda
+             echo "<br>";
+             // echo"<br>";
 
         ?>
  </body>
