@@ -1,0 +1,4 @@
+[15-Jan-2018 20:12:04 UTC] Call to undefined method View::rendor() [/home/nsinghvi/public_html/328/Assignment/index.php:12]
+[15-Jan-2018 20:12:04 UTC] [328/Assignment/index.php:18] Base->run()
+[15-Jan-2018 20:13:00 UTC] Call to undefined method View::rendor() [/home/nsinghvi/public_html/328/Assignment/index.php:12]
+[15-Jan-2018 20:13:00 UTC] [328/Assignment/index.php:18] Base->run()
