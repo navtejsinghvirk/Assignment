@@ -2,13 +2,12 @@
 <html>
  <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Array Function Assign</title>
  </head>
  <body>
       <?php
+      //Part 1.
       //define array as $animals
       $animals = array("panda","alpaca","boa");
       //function for sort animals
@@ -47,6 +46,7 @@
       echo "<br>";
       echo"<br>";
 
+      //Part 2
    // define associative array key=>value pair
       $cupcake = array("grasshopper"=>"The Grasshopper",
                           "maple"=>"Whisky Maple Bacon",
@@ -57,23 +57,12 @@
                           "tiramisu"=>"Tiramisu");
 
     // print as key value as checkbox
-      foreach($cupcake as $cup=>$cup_value) {
-          echo' <input type="checkbox" name="cup[]" value ="">';
-          echo "$cup_value";
+      foreach($cupcake as $flavors=>$flavors_value) {
+          echo ' <input type="checkbox" name="flavors[]" value ="'. $flavors_value.'"> ' ;
+          echo $flavors_value;
           echo "<br>";
           }
           ?>
-<br>
-      <label>
-      <!--create individual check box  -->
-      <input type="checkbox" name="flavors[]" value="grasshopper"> The Grasshopper<br>
-      <input type="checkbox" name="flavors[]" value="maple"> Whisky Maple Bacon<br>
-      <input type="checkbox" name="flavors[]" value="carrot"> Carrot Walnut<br>
-      <input type="checkbox" name="flavors[]" value="caramel"> Salted Carmel Cupcake<br>
-      <input type="checkbox" name="flavors[]" value="velvet"> Red Velvet<br>
-      <input type="checkbox" name="flavors[]" value="lemon">Lemon Drop<br>
-      <input type="checkbox" name="flavors[]" value="tiraminsu">Tiramisu<br>
-      </label>
 
  </body>
 </html>

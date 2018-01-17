@@ -2,3 +2,15 @@
 [15-Jan-2018 20:12:04 UTC] [328/Assignment/index.php:18] Base->run()
 [15-Jan-2018 20:13:00 UTC] Call to undefined method View::rendor() [/home/nsinghvi/public_html/328/Assignment/index.php:12]
 [15-Jan-2018 20:13:00 UTC] [328/Assignment/index.php:18] Base->run()
+[15-Jan-2018 23:36:44 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 49
+[15-Jan-2018 23:38:31 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 49
+[15-Jan-2018 23:39:24 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 49
+[15-Jan-2018 23:39:41 UTC] PHP Parse error:  syntax error, unexpected ''/;?>"'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 49
+[15-Jan-2018 23:43:12 UTC] PHP Parse error:  syntax error, unexpected ''/?>"'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 49
+[15-Jan-2018 23:47:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 49
+[15-Jan-2018 23:48:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 49
+[15-Jan-2018 23:50:00 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 50
+[15-Jan-2018 23:50:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 67
+[15-Jan-2018 23:51:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 68
+[15-Jan-2018 23:52:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 68
+[15-Jan-2018 23:56:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/nsinghvi/public_html/328/Assignment/arrayfunction.php on line 50
